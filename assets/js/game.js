@@ -10,7 +10,7 @@ var enemyAttack = 12;
 console.log(enemyNames);
 console.log(enemyNames.length);
 console.log(enemyNames[0]);
-console.log(enemyNames[3]);
+console.log(enemyNames[2]);
 
 // fight function (now with parameter for enemy's name)
 var fight = function(enemyName) {
@@ -73,6 +73,7 @@ var fight = function(enemyName) {
 
 // function to start a new game
 var startGame = function() {
+  debugger;
     // reset player stats
     playerHealth = 100
     playerAttack = 10
@@ -145,7 +146,7 @@ var endGame = function() {
 };
 
 // start the game when the page loads
-startGame();
+ startGame();
 
 
 
